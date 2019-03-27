@@ -3,6 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each do | attr, types |
     types.each do | type, pigeon |
       pigeons.push(pigeon)
+      return pigeons
     end
   end
 end
