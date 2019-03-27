@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
   puts data.each do | attr, types |
-    puts attr
+    piegon_list =
   end
 end
