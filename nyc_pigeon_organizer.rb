@@ -1,8 +1,9 @@
 def nyc_pigeon_organizer(data)
   pigeons = [];
-  puts data.each do | attr, types |
-    piegon_list = {
+  data.each do | attr, types |
+    types.each do | type, pigeon |
+      pigeons.push(pigeon)
 
-    }
+    end
   end
 end
